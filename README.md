@@ -6,7 +6,7 @@ This project trains a neural network (AlexNet) to classify images from two datas
 
 
 ## About AlexNet
-AlexNet is a deep convolutional neural network designed for image classification tasks. It captures complex patterns in images through multiple convolutional layers, followed by **ReLU activation**s, **max-pooling layers**, and fully connected layers. These components allow the model to **learn hierarchical features** from the input data, making it effective for a wide range of visual recognition tasks. In this project, AlexNet was applied to two distinct datasets: SVHN (Street View House Numbers) and Fashion-MNIST.
+AlexNet is a deep convolutional neural network designed for image classification tasks. This was the first architecture that used GPU to boost the training performance. It captures complex patterns in images through multiple convolutional layers, followed by **ReLU activations**, **max-pooling layers**, and fully connected layers. These components allow the model to **learn hierarchical features** from the input data, making it effective for a wide range of visual recognition tasks. In this project, AlexNet was applied to two distinct datasets: SVHN (Street View House Numbers) and Fashion-MNIST.
 
 In 2012, AlexNet produced ground-breaking results in the ImageNet Large Scale Visual Recognition Challenge (ILSVRC). It outperformed prior CNN architectures greatly and set the path for the rebirth of deep learning in computer vision.
 Several architectural improvements were introduced by AlexNet, including the use of rectified linear units (ReLU) as activation functions, overlapping pooling, and dropout regularisation. These strategies aided in the improvement of performance and generalisation
@@ -18,6 +18,7 @@ AlexNet consists of **8 layers**, including 5 convolutional layers and 3 fully c
 
 - The architecture employs overlapping pooling layers to reduce spatial dimensions while retaining the spatial relationships among neighbouring features.
 - Activation function: AlexNet uses the ReLU activation function and dropout regularization, which enhance the model’s ability to capture non-linear relationships within the data.
+
 
 | Features      | AlexNet       |
 | ------------- | ------------- |
